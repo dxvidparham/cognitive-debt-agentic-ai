@@ -125,7 +125,7 @@ Skill atrophy closes the loop. Atrophied skills make comprehension harder — wh
 
 This is why the causal chain is a loop, not a line.
 
-→ Back: [Trust Miscalibration](./trust-miscalibration.md) · Start over: [Overview](../overview.md)
+→ Back: [Trust Miscalibration](./03-trust-miscalibration.md) · Start over: [Overview](../overview.md)
 
 ---
 

@@ -122,7 +122,7 @@ Flow disruption is the downstream consequence of everything upstream. Opacity me
 
 Skill Atrophy is what happens when flow disruption persists long enough. You stop practicing the skills that create flow, and eventually you lose the ability to enter it at all.
 
-→ Back: [Overview](../overview.md) · Next: [Skill Atrophy](./skill-atrophy.md)
+→ Back: [Overview](../overview.md) · Next: [Skill Atrophy](./06-skill-atrophy.md)
 
 ---
 

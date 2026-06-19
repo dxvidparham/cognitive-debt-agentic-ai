@@ -47,9 +47,9 @@ This talk and repo cover the three most immediately relevant modes for working d
 
 | Failure Mode | One-liner |
 |---|---|
-| [**Opacity**](./failure-modes/opacity.md) | You ship code you don't understand |
-| [**Trust Miscalibration**](./failure-modes/trust-miscalibration.md) | Your confidence in AI output exceeds its actual reliability |
-| [**Skill Atrophy**](./failure-modes/skill-atrophy.md) | Delegation erodes the skills you stop practicing |
+| [**Opacity**](./failure-modes/01-opacity.md) | You ship code you don't understand |
+| [**Trust Miscalibration**](./failure-modes/03-trust-miscalibration.md) | Your confidence in AI output exceeds its actual reliability |
+| [**Skill Atrophy**](./failure-modes/06-skill-atrophy.md) | Delegation erodes the skills you stop practicing |
 
 ---
 

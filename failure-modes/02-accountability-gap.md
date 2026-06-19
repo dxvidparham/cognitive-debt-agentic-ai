@@ -101,7 +101,7 @@ The standard should be: can you explain what this code does and why, to someone 
 
 Accountability flows directly from Opacity. You can't own what you don't understand. And when accountability is diffuse, Trust miscalibration follows — developers accept AI output more readily when they've implicitly decided that the responsibility for it is shared.
 
-→ Back: [Overview](../overview.md) · Related: [Opacity](./opacity.md)
+→ Back: [Overview](../overview.md) · Related: [Opacity](./01-opacity.md)
 
 ---
 

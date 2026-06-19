@@ -107,7 +107,7 @@ Before starting any agent session, write down exactly what you want it to do and
 
 Context-switching is the middle of the chain. It flows from Trust Miscalibration — over-trust means accepting large diffs without proper review, which makes the next context switch even more expensive. And it feeds directly into Flow State Disruption — a session full of context switches is a session without flow.
 
-→ Back: [Overview](../overview.md) · Next: [Flow State Disruption](./flow-state-disruption.md)
+→ Back: [Overview](../overview.md) · Next: [Flow State Disruption](./05-flow-state-disruption.md)
 
 ---
 
