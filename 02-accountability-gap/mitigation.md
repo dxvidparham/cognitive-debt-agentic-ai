@@ -60,7 +60,7 @@ The bar: can you explain what this code does and why, to someone who wasn't in t
 
 **Targets:** The accountability gap at the moment code leaves the repository — exactly when ownership is most likely to diffuse.
 
-**Source:** Custom.
+**Source:** Garry Tan · [garrytan/gstack](https://github.com/garrytan/gstack/tree/main/canary) (adapted).
 
 ---
 

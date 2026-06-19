@@ -78,25 +78,7 @@ Developers who used this pattern in the Anthropic RCT scored **86% on comprehens
 
 For security-critical, money-handling, or concurrency code: write it yourself. Use AI to review your work, not to generate it. The generation effect matters most where the stakes are highest.
 
-### Add this to your AGENTS.md
-
-```markdown
-## Comprehension requirements
-
-- Never generate code without explaining WHY this approach was chosen over alternatives.
-- For any function longer than 20 lines, include a plain-English summary of its
-  contract: inputs → outputs → side effects.
-- When modifying existing code, explain what the previous code did and why the
-  new version is better.
-
-## Explanation format
-
-After every non-trivial code block, append:
-> **What this does:** [one sentence]
-> **Why this approach:** [one sentence]
-> **What could go wrong:** [one sentence]
-```
-
+→ Full AGENTS.md snippet and experimental tools: [mitigation.md](./mitigation.md)
 ---
 
 ## The connection to the other failure modes

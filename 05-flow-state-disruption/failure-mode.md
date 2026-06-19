@@ -88,27 +88,7 @@ Treat agent supervision as scheduled work, not an interrupt. Set a timer. Review
 
 The goal is to have windows of uninterrupted generative work — even if those windows are shorter than they used to be.
 
-### Add this to your AGENTS.md
-
-```markdown
-## Solve-first protocol
-
-Before delegating any non-trivial task to an AI agent:
-1. Spend at least 5 minutes attempting the problem yourself
-2. Write down your approach (pseudocode, outline, or test cases)
-3. Only then delegate — with your approach as context in the prompt
-
-## Supervision boundaries
-
-- Do not surface for review more than once every [N] minutes unless blocked.
-- Batch related changes into a single review checkpoint rather than requesting
-  approval for each file individually.
-- If you are uncertain about direction, ask ONE clarifying question before
-  starting — not mid-task.
-- Prefer completing a full logical unit before pausing, so reviews are
-  meaningful rather than fragmentary.
-```
-
+→ Full AGENTS.md snippet and experimental tools: [mitigation.md](./mitigation.md)
 ---
 
 ## The connection to the other failure modes

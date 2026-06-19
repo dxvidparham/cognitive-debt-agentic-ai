@@ -37,8 +37,20 @@ Cognitive debt is what accumulates when AI handles the execution while the human
 
 It's not one problem. It's a **feedback loop** of six interconnected failure modes:
 
-```
-Opacity → Accountability → Trust → Context-Switching → Flow → Atrophy → (back to Opacity)
+```mermaid
+graph LR
+    A(["🔍 Opacity"]) --> B(["👤 Accountability Gap"])
+    B --> C(["⚖️ Trust Miscalibration"])
+    C --> D(["🔀 Context Switching"])
+    D --> E(["🌊 Flow Disruption"])
+    E --> F(["📉 Skill Atrophy"])
+    F -->|"feeds back"| A
+    style A fill:#e74c3c,color:#fff
+    style B fill:#e67e22,color:#fff
+    style C fill:#f1c40f,color:#000
+    style D fill:#2ecc71,color:#fff
+    style E fill:#3498db,color:#fff
+    style F fill:#9b59b6,color:#fff
 ```
 
 Each mode feeds the next. Fixing comprehension (Opacity) is upstream of all the others.

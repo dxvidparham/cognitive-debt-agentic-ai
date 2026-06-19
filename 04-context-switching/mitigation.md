@@ -56,7 +56,7 @@ Before starting any agent session, write down exactly what you want it to do and
 
 **Targets:** The "almost-right" problem (45% of developers, SO 2025) — which is largely a scoping failure.
 
-**Source:** Adapted from [Trail of Bits](https://github.com/trailofbits).
+**Source:** Trail of Bits · [trailofbits/skills](https://github.com/trailofbits/skills/tree/main/plugins/ask-questions-if-underspecified) (adapted).
 
 ---
 

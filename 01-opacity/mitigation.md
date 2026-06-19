@@ -69,7 +69,7 @@ After every non-trivial code block, append:
 
 **Targets:** Opacity at the root — restores the cognitive struggle that builds the mental model before code exists.
 
-**Source:** Custom.
+**Source:** Matt Pocock · [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/skills/productivity/grill-me) (adapted).
 
 ---
 
@@ -79,7 +79,7 @@ After every non-trivial code block, append:
 
 **Targets:** The "illusion of understanding" — where code looks correct but the agent (or developer) has no real model of how it works.
 
-**Source:** Adapted from [Trail of Bits audit methodology](https://github.com/trailofbits).
+**Source:** Trail of Bits · [trailofbits/skills](https://github.com/trailofbits/skills/tree/main/plugins/audit-context-building) (adapted).
 
 ---
 

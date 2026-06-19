@@ -63,7 +63,7 @@ AI models have training cutoffs. Library APIs change. Security best practices ev
 
 **Why it matters:** Trust miscalibration is a confidence problem. This skill makes confidence earn its keep.
 
-**Source:** Custom.
+**Source:** Addy Osmani · [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills/tree/main/skills/doubt-driven-development) (adapted).
 
 ---
 
@@ -75,7 +75,7 @@ AI models have training cutoffs. Library APIs change. Security best practices ev
 
 **Targets:** The gap between "I think this works" and "I have verified this works."
 
-**Source:** Adapted from [superpowers](https://github.com/obra/superpowers).
+**Source:** Jesse Vincent (obra) · [obra/superpowers](https://github.com/obra/superpowers/tree/main/skills/verification-before-completion) (adapted).
 
 ---
 

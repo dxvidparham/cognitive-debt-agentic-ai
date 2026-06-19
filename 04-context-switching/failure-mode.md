@@ -87,20 +87,7 @@ The larger the diff, the more expensive the review. The fix isn't faster reviewi
 
 Before starting any agent session, write down exactly what you want it to do and what files it should touch. A well-scoped agent returns a reviewable diff. An under-scoped agent returns a sprawling change that takes longer to review than it would have taken to write.
 
-### Add this to your AGENTS.md
-
-```markdown
-## Scope and atomicity rules
-
-- Work on ONE file or ONE logical unit at a time unless explicitly told otherwise.
-  Complete it fully before moving to the next.
-- After completing each logical unit, pause and summarise what was done
-  before proceeding. This creates natural review checkpoints.
-- Never start a new task while a previous task's output is unreviewed.
-- Maximum diff size per response: [N] files or [N] lines changed. If the task
-  requires more, break it into sequential steps and wait for approval between each.
-```
-
+→ Full AGENTS.md snippet and experimental tools: [mitigation.md](./mitigation.md)
 ---
 
 ## The connection to the other failure modes

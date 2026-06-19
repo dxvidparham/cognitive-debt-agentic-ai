@@ -102,21 +102,7 @@ The skills that atrophy fastest are in the "worth keeping" and "worth seeking ou
 
 Explicitly require junior developers to implement core features manually before using AI assistance on the same feature class. The foundational skills have to be built before they can be maintained. AI as a learning shortcut for juniors isn't acceleration — it's debt.
 
-### Add this to your AGENTS.md
-
-```markdown
-## Learning-oriented interaction rules
-
-- When I ask "how do I do X?", explain the concept and give a generalized example
-  in a DIFFERENT domain. Do not write the solution for my specific problem.
-- When I share code I wrote, critique it and explain improvements rather than
-  rewriting it for me.
-- If I ask you to debug something, ask me what I think the problem is first
-  before offering your analysis.
-- For any algorithm or data structure you use, briefly explain why it was chosen
-  over the obvious alternative.
-```
-
+→ Full AGENTS.md snippet and experimental tools: [mitigation.md](./mitigation.md)
 ---
 
 ## The connection to the other failure modes

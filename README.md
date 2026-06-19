@@ -23,10 +23,21 @@ This repo is the companion resource for the lightning talk *"Cognitive Debt in t
 
 These aren't independent problems. They form a reinforcing feedback loop:
 
+```mermaid
+graph LR
+    A(["🔍 Opacity"]) --> B(["👤 Accountability Gap"])
+    B --> C(["⚖️ Trust Miscalibration"])
+    C --> D(["🔀 Context Switching"])
+    D --> E(["🌊 Flow Disruption"])
+    E --> F(["📉 Skill Atrophy"])
+    F -->|"feeds back"| A
+    style A fill:#e74c3c,color:#fff
+    style B fill:#e67e22,color:#fff
+    style C fill:#f1c40f,color:#000
+    style D fill:#2ecc71,color:#fff
+    style E fill:#3498db,color:#fff
+    style F fill:#9b59b6,color:#fff
 ```
-Opacity → Accountability Gap → Trust Miscalibration → Context Switching → Flow Disruption → Skill Atrophy → (back to Opacity)
-```
-
 Each mode feeds the next. Fixing comprehension (Opacity) is upstream of all the others.
 
 ---

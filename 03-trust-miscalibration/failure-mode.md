@@ -93,21 +93,7 @@ If you're not measuring, you're flying on the feeling. And the feeling is wrong.
 
 For any code touching authentication, authorization, encryption, input validation, or database schemas: treat AI output as guilty until proven innocent. Review it independently. Don't accept "it looks right" as a bar.
 
-### Add this to your AGENTS.md
-
-```markdown
-## Trust and verification rules
-
-- For any security-sensitive code (auth, crypto, permissions, input validation),
-  explicitly state: "This code requires independent security review before merging."
-- Never claim code is "safe" or "secure." Describe what it does and what it does
-  NOT protect against.
-- When you are uncertain about correctness, say so explicitly rather than
-  generating plausible-looking code.
-- Flag any code that modifies: authentication, authorization, encryption,
-  database schemas, or external API contracts.
-```
-
+→ Full AGENTS.md snippet and experimental tools: [mitigation.md](./mitigation.md)
 ---
 
 ## The connection to the other failure modes
