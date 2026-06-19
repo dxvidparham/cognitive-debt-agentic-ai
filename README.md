@@ -61,7 +61,7 @@ Modes 01, 03, and 06 were covered in the talk. All six are in the repo.
 
 **If you have 5 minutes:** Read [overview.md](./overview.md) — the full picture in one page.
 
-**If you want the slides:** [presentation.pdf](./presentation.pdf) — the lightning talk deck.
+**If you want the slides:** Available on request — open an issue or reach out directly.
 
 **If you want the fixes now:** [agents-md-snippets.md](./agents-md-snippets.md) — all six AGENTS.md blocks, ready to copy.
 
