@@ -105,7 +105,7 @@ Opacity is the first link in the causal chain. You can't be accountable for code
 
 Fixing comprehension is upstream of everything else.
 
-→ Next: [Trust Miscalibration](./03-trust-miscalibration.md)
+→ Next: [Accountability Gap](../02-accountability-gap/failure-mode.md) · Mitigations: [mitigation.md](./mitigation.md)
 
 ---
 

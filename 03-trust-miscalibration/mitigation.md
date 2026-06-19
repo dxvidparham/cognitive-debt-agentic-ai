@@ -1,6 +1,6 @@
 # Mitigating Trust Miscalibration
 
-> Failure mode: [03-trust-miscalibration](../failure-modes/03-trust-miscalibration.md)
+> Failure mode: [failure-mode.md](./failure-mode.md)
 
 Trust miscalibration is insidious because it feels like confidence. The fix is not to trust less — it's to replace felt confidence with measured confidence. Distrust fluency. Verify claims. Give security no benefit of the doubt.
 
@@ -55,7 +55,7 @@ AI models have training cutoffs. Library APIs change. Security best practices ev
 
 ## Experimental tools
 
-> ⚗️ These are tools built by one developer to operationalise the baseline above. They are not prescriptions.
+> ⚗️ These are tools one developer built and runs in production to test whether the theory holds in practice. They are not prescriptions — they are included because real attempts at mitigation are more useful than abstract recommendations.
 
 ### `doubt-driven-development` skill
 
@@ -69,13 +69,13 @@ AI models have training cutoffs. Library APIs change. Security best practices ev
 
 ### `verification-before-completion` skill
 
-**What it does:** Evidence gate before any success claim. The agent cannot say "done", "fixed", "passing", or create a commit/PR without first running the build, tests, and linter and confirming exit code 0. A "Bug fixed in production" claim additionally requires Sentry evidence.
+**What it does:** Evidence gate before any success claim. The agent cannot say "done", "fixed", "passing", or create a commit/PR without first running the build, tests, and linter and confirming exit code 0.
 
 **Core rule:** No success claim without evidence.
 
 **Targets:** The gap between "I think this works" and "I have verified this works."
 
-**Source:** Adapted from superpowers/verification-before-completion.
+**Source:** Adapted from [superpowers](https://github.com/obra/superpowers).
 
 ---
 
@@ -94,15 +94,15 @@ AI models have training cutoffs. Library APIs change. Security best practices ev
 **What they do:**
 
 - `semgrep p/python + p/security-audit` — Python security patterns, runs before every commit
-- `semgrep p/trailofbits` — ML/AI-specific security rules (8 baseline findings documented)
+- `semgrep p/trailofbits` — ML/AI-specific security rules
 - `ripsecrets` — scans for hardcoded secrets before commit
 
 **Why it matters:** Automated gates catch the class of trust failures that are systematic — the same wrong pattern appearing repeatedly in AI-generated code. They don't require the developer to remember to check.
 
 **Status:** Running via `prek` pre-commit hooks. Config: `.pre-commit-config.yaml`.
 
-**Source:** [semgrep](https://semgrep.dev), [ripsecrets](https://github.com/sirwart/ripsecrets), [Trail of Bits ruleset](https://github.com/trailofbits/semgrep-rules).
+**Source:** [semgrep](https://semgrep.dev) · [ripsecrets](https://github.com/sirwart/ripsecrets) · [Trail of Bits ruleset](https://github.com/trailofbits/semgrep-rules).
 
 ---
 
-→ Back: [Mitigation index](./README.md) · Failure mode: [03-trust-miscalibration](../failure-modes/03-trust-miscalibration.md)
+→ Back: [Overview](../overview.md) · Next: [04-context-switching/mitigation.md](../04-context-switching/mitigation.md)

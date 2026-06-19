@@ -1,6 +1,6 @@
 # Mitigating the Accountability Gap
 
-> Failure mode: [02-accountability-gap](../failure-modes/02-accountability-gap.md)
+> Failure mode: [failure-mode.md](./failure-mode.md)
 
 Accountability doesn't disappear when AI writes the code. It diffuses — spread thin across the prompter, the reviewer, the tool, and the team until nobody clearly owns it. The mitigation is structural: make ownership explicit before the code ships, not after something breaks.
 
@@ -50,7 +50,7 @@ The bar: can you explain what this code does and why, to someone who wasn't in t
 
 ## Experimental tools
 
-> ⚗️ These are tools built by one developer to operationalise the baseline above. They are not prescriptions.
+> ⚗️ These are tools one developer built and runs in production to test whether the theory holds in practice. They are not prescriptions — they are included because real attempts at mitigation are more useful than abstract recommendations.
 
 ### `canary` skill
 
@@ -104,4 +104,4 @@ The bar: can you explain what this code does and why, to someone who wasn't in t
 
 ---
 
-→ Back: [Mitigation index](./README.md) · Failure mode: [02-accountability-gap](../failure-modes/02-accountability-gap.md)
+→ Back: [Overview](../overview.md) · Next: [03-trust-miscalibration/mitigation.md](../03-trust-miscalibration/mitigation.md)

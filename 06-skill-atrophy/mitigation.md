@@ -1,8 +1,8 @@
 # Mitigating Skill Atrophy
 
-> Failure mode: [06-skill-atrophy](../failure-modes/06-skill-atrophy.md)
+> Failure mode: [failure-mode.md](./failure-mode.md)
 
-Skill atrophy is the slowest failure mode and the hardest to detect. You don't notice it until you need a skill you've stopped practicing — and by then, the gap is already there. The mitigation is not to delegate less. It's to delegate deliberately: preserve the friction that builds skill, measure what you're losing, and schedule the practice that keeps the mental model alive.
+Skill atrophy is the slowest failure mode and the hardest to detect. You don't notice it until you need a skill you've stopped practicing — and by then, the gap is already there. The mitigation is not to delegate less. It's to delegate deliberately: preserve the friction that builds skill, and schedule the practice that keeps the mental model alive.
 
 ---
 
@@ -57,9 +57,9 @@ Protect time for junior developers to work without AI assistance on problems tha
 
 ### `cognitive-gym` skill
 
-**What it does:** Diagnostic deliberate-practice protocol. Five phases: (1) delegation audit — what have you delegated in the last 30 days and which skills did that bypass? (2) rep design — design a practice problem that targets the most atrophied skill; (3) teach-one — explain the concept to a rubber duck or a junior developer; (4) scheduling — block time for the practice; (5) gym log — record what was practiced and what gaps remain.
+**What it does:** Diagnostic deliberate-practice protocol. Surfaces which skills are at risk before they've degraded: delegation audit (what have you delegated in the last 30 days?), rep design (practice problem targeting the most atrophied skill), teach-one (explain the concept to a rubber duck or junior developer), scheduling (block time), gym log (record what was practiced and what gaps remain).
 
-**Why it matters:** Skill atrophy is invisible until it's a problem. The gym log makes it visible. The delegation audit surfaces which skills are at risk before they've degraded.
+**Why it matters:** Skill atrophy is invisible until it's a problem. The delegation audit makes it visible. The gym log creates a record of what's being maintained and what isn't.
 
 **Triggers:** "I used to be able to do this", "I always let the agent handle X", post-sprint retrospective, any explicit concern about skill decay.
 
@@ -109,4 +109,4 @@ If you didn't specify the constraint, the AI didn't know to apply it.
 
 ---
 
-→ Back: [Mitigation index](./README.md) · Failure mode: [06-skill-atrophy](../failure-modes/06-skill-atrophy.md)
+→ Back: [Overview](../overview.md) · Failure mode: [failure-mode.md](./failure-mode.md) · Start over: [01-opacity/failure-mode.md](../01-opacity/failure-mode.md)

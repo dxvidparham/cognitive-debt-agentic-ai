@@ -82,18 +82,6 @@ Before delegating any non-trivial task to an agent, spend 5–10 minutes sketchi
 
 Two effects: you build the mental model that lets you review the agent's output properly, and you preserve the generative engagement that creates flow.
 
-```markdown
-# Solve-first protocol (from AGENTS.md)
-
-Before delegating any non-trivial task to an AI agent:
-1. Spend at least 5 minutes attempting the problem yourself
-2. Write down your approach (pseudocode, outline, or test cases)
-3. Only then delegate — with your approach as context in the prompt
-
-This is not about limiting AI use. It's about preserving the comprehension
-that makes AI-assisted code reviewable and maintainable.
-```
-
 ### Batch supervision, protect flow windows
 
 Treat agent supervision as scheduled work, not an interrupt. Set a timer. Review outputs in batches. Don't let the agent's pace dictate yours.
@@ -103,6 +91,13 @@ The goal is to have windows of uninterrupted generative work — even if those w
 ### Add this to your AGENTS.md
 
 ```markdown
+## Solve-first protocol
+
+Before delegating any non-trivial task to an AI agent:
+1. Spend at least 5 minutes attempting the problem yourself
+2. Write down your approach (pseudocode, outline, or test cases)
+3. Only then delegate — with your approach as context in the prompt
+
 ## Supervision boundaries
 
 - Do not surface for review more than once every [N] minutes unless blocked.
@@ -122,7 +117,7 @@ Flow disruption is the downstream consequence of everything upstream. Opacity me
 
 Skill Atrophy is what happens when flow disruption persists long enough. You stop practicing the skills that create flow, and eventually you lose the ability to enter it at all.
 
-→ Back: [Overview](../overview.md) · Next: [Skill Atrophy](./06-skill-atrophy.md)
+→ Back: [Context Switching](../04-context-switching/failure-mode.md) · Next: [Skill Atrophy](../06-skill-atrophy/failure-mode.md) · Mitigations: [mitigation.md](./mitigation.md)
 
 ---
 

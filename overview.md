@@ -47,9 +47,9 @@ This talk and repo cover the three most immediately relevant modes for working d
 
 | Failure Mode | One-liner |
 |---|---|
-| [**Opacity**](./failure-modes/01-opacity.md) | You ship code you don't understand |
-| [**Trust Miscalibration**](./failure-modes/03-trust-miscalibration.md) | Your confidence in AI output exceeds its actual reliability |
-| [**Skill Atrophy**](./failure-modes/06-skill-atrophy.md) | Delegation erodes the skills you stop practicing |
+| [**Opacity**](./01-opacity/failure-mode.md) | You ship code you don't understand |
+| [**Trust Miscalibration**](./03-trust-miscalibration/failure-mode.md) | Your confidence in AI output exceeds its actual reliability |
+| [**Skill Atrophy**](./06-skill-atrophy/failure-mode.md) | Delegation erodes the skills you stop practicing |
 
 ---
 
@@ -92,12 +92,26 @@ Three guardrails — one per failure mode:
 ## What's in this repo
 
 ```
-failure-modes/
-  opacity.md               — You ship code you don't understand
-  trust-miscalibration.md  — Your confidence exceeds AI's actual reliability
-  skill-atrophy.md         — Delegation erodes the skills you stop practicing
+01-opacity/
+  failure-mode.md          — You ship code you don't understand
+  mitigation.md            — How to fix it
+02-accountability-gap/
+  failure-mode.md          — Responsibility diffuses when AI code fails
+  mitigation.md            — How to fix it
+03-trust-miscalibration/
+  failure-mode.md          — Your confidence exceeds AI's actual reliability
+  mitigation.md            — How to fix it
+04-context-switching/
+  failure-mode.md          — Managing agents overwhelms working memory
+  mitigation.md            — How to fix it
+05-flow-state-disruption/
+  failure-mode.md          — Supervisory work is not deep work
+  mitigation.md            — How to fix it
+06-skill-atrophy/
+  failure-mode.md          — Delegation erodes the skills you stop practicing
+  mitigation.md            — How to fix it
 
-research/                  — Source research files (coming)
+agents-md-snippets.md      — All six AGENTS.md blocks in one place
 sources.md                 — Annotated bibliography with all cited studies
 ```
 

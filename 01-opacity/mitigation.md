@@ -1,6 +1,6 @@
 # Mitigating Opacity
 
-> Failure mode: [01-opacity](../failure-modes/01-opacity.md)
+> Failure mode: [failure-mode.md](./failure-mode.md)
 
 Opacity is the root of the causal chain. Fix it here and the downstream modes get easier. Let it slide and everything else compounds.
 
@@ -38,8 +38,6 @@ You stay the author of the load-bearing decisions. The agent handles the elabora
 
 ## AGENTS.md snippet
 
-Add this to your AGENTS.md (or equivalent config file):
-
 ```markdown
 ## Comprehension requirements
 
@@ -61,7 +59,7 @@ After every non-trivial code block, append:
 
 ## Experimental tools
 
-> ⚗️ These are tools built by one developer to operationalise the baseline above. They are not prescriptions. They are included because seeing what someone actually built is more useful than seeing what they recommend.
+> ⚗️ These are tools one developer built and runs in production to test whether the theory holds in practice. They are not prescriptions — they are included because real attempts at mitigation are more useful than abstract recommendations.
 
 ### `grill-me` skill
 
@@ -71,7 +69,7 @@ After every non-trivial code block, append:
 
 **Targets:** Opacity at the root — restores the cognitive struggle that builds the mental model before code exists.
 
-**Source:** Matt Pattlock. Adapted for OpenCode.
+**Source:** Custom.
 
 ---
 
@@ -81,7 +79,7 @@ After every non-trivial code block, append:
 
 **Targets:** The "illusion of understanding" — where code looks correct but the agent (or developer) has no real model of how it works.
 
-**Source:** Adapted from Trail of Bits audit methodology.
+**Source:** Adapted from [Trail of Bits audit methodology](https://github.com/trailofbits).
 
 ---
 
@@ -97,4 +95,4 @@ After every non-trivial code block, append:
 
 ---
 
-→ Back: [Mitigation index](./README.md) · Failure mode: [01-opacity](../failure-modes/01-opacity.md)
+→ Back: [Overview](../overview.md) · Next: [02-accountability-gap/mitigation.md](../02-accountability-gap/mitigation.md)

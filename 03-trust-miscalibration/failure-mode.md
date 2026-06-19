@@ -114,7 +114,7 @@ For any code touching authentication, authorization, encryption, input validatio
 
 Trust miscalibration sits in the middle of the causal chain. It flows from Opacity — you over-trust the tool partly to compensate for code you don't fully understand. And it feeds into Context-Switching — over-trust means accepting large diffs you haven't modelled, which increases the supervision burden on every subsequent review.
 
-→ Back: [Opacity](./01-opacity.md) · Next: [Skill Atrophy](./06-skill-atrophy.md)
+→ Back: [Accountability Gap](../02-accountability-gap/failure-mode.md) · Next: [Context Switching](../04-context-switching/failure-mode.md) · Mitigations: [mitigation.md](./mitigation.md)
 
 ---
 

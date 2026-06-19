@@ -1,6 +1,6 @@
 # Mitigating Context Switching
 
-> Failure mode: [04-context-switching](../failure-modes/04-context-switching.md)
+> Failure mode: [failure-mode.md](./failure-mode.md)
 
 The context-switching burden is structural. Every agent invocation is a mode switch: you exit developer mode, enter reviewer mode, parse the diff, decide, fix what's wrong, and try to re-enter where you left off. The mitigation is not to review faster — it's to reduce the frequency and size of switches, and to make the ones that remain deliberate rather than reactive.
 
@@ -46,7 +46,7 @@ Before starting any agent session, write down exactly what you want it to do and
 
 ## Experimental tools
 
-> ⚗️ These are tools built by one developer to operationalise the baseline above. They are not prescriptions.
+> ⚗️ These are tools one developer built and runs in production to test whether the theory holds in practice. They are not prescriptions — they are included because real attempts at mitigation are more useful than abstract recommendations.
 
 ### `ask-questions-if-underspecified` skill
 
@@ -56,7 +56,7 @@ Before starting any agent session, write down exactly what you want it to do and
 
 **Targets:** The "almost-right" problem (45% of developers, SO 2025) — which is largely a scoping failure.
 
-**Source:** Adapted from Trail of Bits.
+**Source:** Adapted from [Trail of Bits](https://github.com/trailofbits).
 
 ---
 
@@ -66,9 +66,9 @@ Before starting any agent session, write down exactly what you want it to do and
 
 **Why it matters for context-switching:** A significant portion of context-switching cost is re-establishing context that existed in a previous session. Persistent memory eliminates the "start from scratch" tax on every new session — the agent already knows what was decided, what was tried, and what the current state is.
 
-**Status:** Both running in production. MemPalace enabled; Engram enabled. Being evaluated in parallel — one will be retired after ~1 month.
+**Status:** Both running in production. Being evaluated in parallel — one will be retired after ~1 month.
 
-**Source:** [MemPalace](https://github.com/dxvidparham/mempalace) · [Engram](https://github.com/dxvidparham/engram).
+**Source:** MemPalace · Engram. (Sources not publicly confirmed — links omitted to avoid incorrect attribution.)
 
 ---
 
@@ -90,4 +90,4 @@ produces AI brain fry — cognitive load that degrades review quality across all
 
 ---
 
-→ Back: [Mitigation index](./README.md) · Failure mode: [04-context-switching](../failure-modes/04-context-switching.md)
+→ Back: [Overview](../overview.md) · Next: [05-flow-state-disruption/mitigation.md](../05-flow-state-disruption/mitigation.md)

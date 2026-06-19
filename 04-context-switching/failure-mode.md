@@ -1,4 +1,4 @@
-# Context-Switching — The hidden tax on every agent invocation
+# Context Switching — The hidden tax on every agent invocation
 
 > *"45% of developers cite 'AI solutions that are almost right, but not quite' as their top frustration. 66% report spending more time fixing almost-right AI code."*
 >
@@ -107,7 +107,7 @@ Before starting any agent session, write down exactly what you want it to do and
 
 Context-switching is the middle of the chain. It flows from Trust Miscalibration — over-trust means accepting large diffs without proper review, which makes the next context switch even more expensive. And it feeds directly into Flow State Disruption — a session full of context switches is a session without flow.
 
-→ Back: [Overview](../overview.md) · Next: [Flow State Disruption](./05-flow-state-disruption.md)
+→ Back: [Trust Miscalibration](../03-trust-miscalibration/failure-mode.md) · Next: [Flow State Disruption](../05-flow-state-disruption/failure-mode.md) · Mitigations: [mitigation.md](./mitigation.md)
 
 ---
 
